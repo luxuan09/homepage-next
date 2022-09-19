@@ -1,6 +1,6 @@
 {
   "name": "hpn",
-  "homepage": "https://sprvgt.github.io/homepage-next",
+  "homepage": "https://luxuan09.github.io",
   "version": "0.1.6",
   "private": true,
   "dependencies": {
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
