@@ -179,17 +179,17 @@ interface EntryProps {
 const Entry: React.FC<EntryProps> = (props) => {
     return (
         <li className="publication-entry">
-            <span className="pug-seg">[{props.publication.label}]</span>
+            <span className="pub-seg">[{props.publication.label}]</span>
             {props.publication.authors.map((author) => {
                 let lastAuthor = props.publication.authors[(props.publication.authors.length - 1)];
                 let split = lastAuthor == author ? '.' : ',';
                 return author == Publication.me 
-                    ? (<span className="pug-seg"><b>{author}</b>{split}</span>)
-                    : (<span className="pug-seg">{author}{split}</span>);
+                    ? (<span className="pub-seg"><b>{author}</b>{split}</span>)
+                    : (<span className="pub-seg">{author}{split}</span>);
             })}
-            <span className="pug-seg"><b>{props.publication.title}.</b></span>
-            <span className="pug-seg"><i>{props.publication.conference}</i>{props.publication.toAppear ? ',' : '.'}</span>
-            {props.publication.toAppear && <span className="pug-seg">to appear.</span>}
+            <span className="pub-seg"><b>{props.publication.title}.</b></span>
+            <span className="pub-seg"><i>{props.publication.conference}</i>{props.publication.toAppear ? ',' : '.'}</span>
+            {props.publication.toAppear && <span className="pub-seg">to appear.</span>}
             {props.publication.bestFullPaper && <span className="highlights">🏆 Best Full Paper Award!</span>}
             {props.publication.hasPodcaseLink && <div className="side-notes">
                 ➡️ <i>Listen to the <a href="https://dataskeptic.com/blog/episodes/2022/emoji-as-a-predictor">Podcast: Emoji as a Predictor</a> hosted by Kyle Polich, Data Skeptic.</i></div>}
