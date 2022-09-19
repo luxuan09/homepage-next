@@ -24,7 +24,7 @@ function Introduction() {
     <div className="introduction">
       <h1 className="name">Xuan Lu (陆璇) </h1>
       <div className="intro-first">
-        I am a Research Fellow in the <a 
+        I am a Research Fellow and a Research Investigator in the <a 
             href="https://www.si.umich.edu/">School of Information</a> at
         the <a
             href="https://www.umich.edu/">University of Michigan</a>. I work
