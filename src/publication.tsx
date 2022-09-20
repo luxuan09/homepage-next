@@ -107,9 +107,9 @@ export const publications: Publication[] = [
         2018),
     new Publication(
         'j3',
-        ['Zhenpeng Chen', 'Xuan Lu', 'Huoran Li', 'Xuanzhe Liu: User Preferences Prediction Based on Multidimensional Features of Apps'],
-        'Journal of Frontiers of Computer Science and Technology, 2017, 11(9):1405-1417.',
-        '',
+        ['Zhenpeng Chen', 'Xuan Lu', 'Huoran Li', 'Xuanzhe Liu'],
+        'User Preferences Prediction Based on Multidimensional Features of Apps',
+        'Journal of Frontiers of Computer Science and Technology, 2017, 11(9):1405-1417',
         2017),
     new Publication(
         'c8',
