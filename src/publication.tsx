@@ -40,14 +40,14 @@ export const publications: Publication[] = [
     new Publication(
         'j9',
         ['Xiaoling Xiang', 'Xuan Lu', 'Alex Halavanau', 'Jia Xue', 'Yihang Sun', 'Patrick Ho Lam Lai', 'Zhenke Wu'],
-        'Emoji-Powered Sentiment and Emotion Detection from Software Developers’ Communication Data',
-        'ACM Transactions on Software Engineering and Methodology (TOSEM\'21), 2021, 30(2): 1-48',
+        'Modern Senicide in the Face of a Pandemic: An Examination of Public Discourse and Sentiment about Older Adults and COVID-19 Using Machine Learning',
+        'The Journals of Gerontology: Series B. 2021 Apr;76(4):e190-200',
         2021),
     new Publication(
         'j8',
         ['Zhenpeng Chen', 'Yanbin Cao', 'Huihan Yao', 'Xuan Lu', 'Xin Peng', 'Hong Mei', 'Xuanzhe Liu'],
-        'Modern Senicide in the Face of a Pandemic: An Examination of Public Discourse and Sentiment about Older Adults and COVID-19 Using Machine Learning',
-        'The Journals of Gerontology: Series B. 2021 Apr;76(4):e190-200',
+        'Emoji-Powered Sentiment and Emotion Detection from Software Developers’ Communication Data',
+        'ACM Transactions on Software Engineering and Methodology (TOSEM\'21), 2021, 30(2): 1-48',
         2021),
     new Publication(
         'c13',
