@@ -78,7 +78,7 @@ function ResearchInterests() {
         Research Interests
       </div>
       <div className="segment-content">
-          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work, Emoji; Mobile App Ecosystem
+          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work; Emoji; Mobile App Ecosystem
       </div>
     </div>
   )
