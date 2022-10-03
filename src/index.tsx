@@ -78,7 +78,7 @@ function ResearchInterests() {
         Research Interests
       </div>
       <div className="segment-content">
-        Causal data science; Emoji; Mobile app ecosystem
+          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work, Emoji; Mobile App Ecosystem
       </div>
     </div>
   )
@@ -91,6 +91,7 @@ function AcademicServices() {
         Academic Services
       </div>
       <ul>
+        <li>PC member, <i>The Web Conference (formerly known as WWW, 2023)</i></li>
         <li>PC member, <i>ACM International WSDM Conference (WSDM, 2021, 2022)</i></li>
         <li>PC member, <i>ACM International Conference on Information and Knowledge Management (CIKM, 2021, 2022)</i></li>
         <li>PC member, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2021, 2022)</i></li>
@@ -120,7 +121,7 @@ function Awards() {
       </div>
       <ul>
         <li>2018, Yang Fuqing & Wang Yangyuan Academician Scholarship, Peking University</li>
-        <li>2017, Microsoft Research Asia Fellowship Award, Microsoft Research Asia</li>
+        <li>2017, Microsoft Research Asia Fellowship Award, Microsoft Research Asia (out of 10 selected in the Asia-Pacific region)</li>
         <li>2017, National Scholarship, Ministry of Education</li>
         <li>2016, Lee Wai Wing Scholarship, Peking University</li>
         <li>2015, Excellent Research Award, Peking University</li>
