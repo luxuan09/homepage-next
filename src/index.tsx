@@ -95,9 +95,10 @@ function AcademicServices() {
         <li>PC member, <i>ACM International WSDM Conference (WSDM, 2021, 2022)</i></li>
         <li>PC member, <i>ACM International Conference on Information and Knowledge Management (CIKM, 2021, 2022)</i></li>
         <li>PC member, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2021, 2022)</i></li>
-        <li>PC member, <i>International Workshop on Emoji Understanding and Applications in Social Media (EMOJI, 2021, 2022)</i></li>
         <li>PC member, <i>International ACM SIGIR Conference on Research and Development in Information Retrieval, short paper (SIGIR short paper, 2021)</i></li>
         <li>PC member, <i>IEEE International Conference on Cloud Computing (IEEE CLOUD, 2020)</i></li>
+        <li>Workshop co-chair, <i>The 2nd IEEE Services Workshop on Network Services (2020)</i></li>
+        <li>PC member, <i>International Workshop on Emoji Understanding and Applications in Social Media (EMOJI, 2021, 2022)</i></li>
         <li>Reviewer for <i>IEEE Transactions on Services Computing (TSC, 2021, 2022)</i></li>
         <li>Reviewer for <i>IEEE Transactions on Software Engineering (TSE, 2021)</i></li>
         <li>Reviewer for <i>ACM Transactions on Intelligent Systems and Technology (TIST, 2021)</i></li>
