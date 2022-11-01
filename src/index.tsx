@@ -35,7 +35,7 @@ function Introduction() {
       </div>
       <div className="intro-second">
         I was fortunate to be advised by Prof. <a 
-            href="http://sei.pku.edu.cn/~meih/index_en.html">Hong Mei</a> and
+            href="https://faculty.pku.edu.cn/meih/en">Hong Mei</a> and
         Prof. <a
             href="http://liuxuanzhe.com/">Xuanzhe Liu</a> and received my Ph.D 
         from <a 
