@@ -90,10 +90,6 @@ body {
   }
 }
 
-.pub-seg {
-  margin-right: 5px;
-}
-
 a:hover, a:focus {
   color: #134fb8;
   text-decoration: underline;
