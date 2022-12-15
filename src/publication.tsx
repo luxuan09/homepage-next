@@ -32,7 +32,7 @@ export const publications: Publication[] = [
         false,
         true /* podcase link */),
     new Publication(
-        'j11',
+        'j10',
         ['Huoran Li', 'Fuqi Lin', 'Xuan Lu', 'Chenren Xu', 'Gang Huang', 'Jun Zhang', 'Qiaozhu Mei', 'Xuanzhe Liu'],
         'Systematic Analysis of Fine-Grained Mobility Prediction with On-Device Contextual Data',
         'IEEE Transactions on Mobile Computing, (TMC\'22), 2022, 21(3): 1096-1109',
