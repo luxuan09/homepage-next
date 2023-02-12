@@ -90,7 +90,7 @@ body {
   }
 }
 
-a:hover, a:focus {
+a:hover {
   color: #134fb8;
   text-decoration: underline;
 }
