@@ -7,6 +7,7 @@ import buildInfo from './buildInfo';
 import profileImage from './images/me.jpeg';
 import { publications } from  './publication';
 import InlineNavBar from './inline-nav-bar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 {
@@ -81,6 +82,13 @@ function ResearchInterests() {
   )
 }
 
+const Home = () => (
+  <div>
+    <ResearchInterests />
+    <Education />
+  </div>
+);
+
 function AcademicServices() {
   return  (
     <div className="segment">
@@ -149,11 +157,13 @@ function Body() {
     <div className="body-content">
       <Profile />
       <InlineNavBar />
-      <Education />
-      <ResearchInterests />
-      <Publications publications={publications}/>
-      <AcademicServices />
-      <Awards />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='papers'
+            element={<Publications publications={publications} />} />
+        <Route path='services' element={<AcademicServices />} />
+        <Route path='awards' element={<Awards />} />
+      </Routes>
     </div>
   )
 }
@@ -176,6 +186,8 @@ function Main() {
 }
 
 ReactDOM.render(
-  <Main />,
+  <BrowserRouter>
+    <Main />
+  </BrowserRouter>,
   document.getElementById('root')
 );
