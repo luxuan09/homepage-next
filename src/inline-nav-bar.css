@@ -1,0 +1,22 @@
+ul.inline {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+    li.inline {
+        font-size: 24px;
+    }
+}
+
+li.inline:not(:first-child):before {
+    content: "\00a0| ";
+}
+
+ul li a.active {
+    text-decoration: underline;
+}
