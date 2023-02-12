@@ -6,6 +6,7 @@ import './index.css';
 import buildInfo from './buildInfo';
 import profileImage from './images/me.jpeg';
 import { publications } from  './publication';
+import InlineNavBar from './inline-nav-bar';
 
 const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 {
@@ -147,6 +148,7 @@ function Body() {
   return (
     <div className="body-content">
       <Profile />
+      <InlineNavBar />
       <Education />
       <ResearchInterests />
       <Publications publications={publications}/>
