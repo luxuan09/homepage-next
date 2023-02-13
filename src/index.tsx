@@ -31,7 +31,7 @@ function Introduction() {
         <div><a href='https://www.umich.edu'>University of Michigan</a></div>
       </div>
       <span className="note">Email: </span><Email email="luxuan@umich.edu" />
-      <div><span className='note'>Office: </span> School of Information/105 S. State Street</div>
+      <div><span className='note'>Office: </span> 3345 North Quad, 105 S. State St. Ann Arbor MI 48109</div>
     </div>
   )
 }
