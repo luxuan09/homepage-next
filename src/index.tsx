@@ -107,7 +107,7 @@ function AcademicServices() {
     <div>
       <div className='segment'>
         <div className='segment-title'>
-          Teaching Experience
+          Teaching Experiences
         </div>
         <ul>
           <li>September 2022.  Instructor of <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>

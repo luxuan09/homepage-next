@@ -11,7 +11,7 @@ const InlineNavBar = ({ className }: InlineNavBarProps) => (
         <nav>
             <ul className='inline'>
                 <li className='inline'><NavLink to='/'>Home</NavLink></li>
-                <li className='inline'><NavLink to='/papers'>Papers</NavLink></li>
+                <li className='inline'><NavLink to='/papers'>Publications</NavLink></li>
                 <li className='inline'><NavLink to='/services'>Teaching & Service</NavLink></li>
                 <li className='inline'><NavLink to='/awards'>Awards</NavLink></li>
             </ul>
