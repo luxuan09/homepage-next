@@ -26,7 +26,7 @@ function Introduction() {
     <div className="introduction">
       <h1 className="name">Xuan Lu <span className='chinese'>(陆璇)</span> </h1>
       <div className='title'>
-        <div>Research Fellow</div>
+        <div>Research Fellow and Research Investigator</div>
         <div><a href='https://www.si.umich.edu/'>School of Information</a></div>
         <div><a href='https://www.umich.edu'>University of Michigan</a></div>
       </div>
