@@ -220,6 +220,9 @@ export const Publications: React.FC<PublicationsProps> = (props) => {
             <div className="segment-title">
                 Publications
             </div>
+            <div className='segment-subtitle'>
+                See also my <a href='https://scholar.google.com/citations?user=vxvh-8oAAAAJ&hl=th'>Google Scholar profile</a>
+            </div>
             <div className="segment-content">
                 {years.map((year) => {
                     let singleYearPublications = publicationsByYear.get(year)!;
