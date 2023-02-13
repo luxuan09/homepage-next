@@ -7,7 +7,7 @@ import buildInfo from './buildInfo';
 import profileImage from './images/me.jpeg';
 import { publications } from  './publication';
 import InlineNavBar from './inline-nav-bar';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 {
@@ -197,8 +197,8 @@ function Footnote() {
 }
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Body />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
