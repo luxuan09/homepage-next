@@ -1,6 +1,11 @@
 body {
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 24px;
+  font-size: 18px;
+}
+
+li {
+  font-size: 17px;
 }
 
 .body-content {
@@ -80,13 +85,18 @@ body {
   line-height: 22px;
 }
 
+.segment-note {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
 .segment-content {
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .segment-subtitle {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: -10px;
 }
 
