@@ -84,8 +84,8 @@ function Education() {
         Education
       </div>
       <ul>
-        <li>2016-2019, Ph.D. student, in Computer Science, Peking University</li>
-        <li>2013-2016, Master student (advisor: Prof. Xuanzhe Liu), in Computer Science, Peking University</li>
+        <li>2016-2019, Ph.D. in Computer Science, Peking University</li>
+        <li>2013-2016, Master student (advisor: Prof. Xuanzhe Liu) in Computer Science, Peking University</li>
         <li>2010-2013, B.A. in Economics (dual degree), Peking University</li>
         <li>2009-2013, B.S. in Computer Science, Peking University</li>
       </ul>
@@ -104,30 +104,41 @@ const Home = () => (
 
 function AcademicServices() {
   return  (
-    <div className="segment">
-      <div className="segment-title">
-        Academic Services
+    <div>
+      <div className='segment'>
+        <div className='segment-title'>
+          Teaching Experience
+        </div>
+        <ul>
+          <li>Sep 2022.  Instructor of <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>
+          <li>Fall 2013-2016. Teaching Assistant of Computer Basics for Liberal Arts Students, Peking University</li>
+        </ul>
       </div>
-      <ul>
-        <li>PC member, <i>The Web Conference (formerly known as WWW, 2023)</i></li>
-        <li>PC member, <i>ACM International WSDM Conference (WSDM, 2021, 2022)</i></li>
-        <li>PC member, <i>ACM International Conference on Information and Knowledge Management (CIKM, 2021, 2022)</i></li>
-        <li>PC member, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2021, 2022)</i></li>
-        <li>PC member, <i>International ACM SIGIR Conference on Research and Development in Information Retrieval, short paper (SIGIR short paper, 2021)</i></li>
-        <li>PC member, <i>IEEE International Conference on Cloud Computing (IEEE CLOUD, 2020)</i></li>
-        <li>Workshop co-chair, <i>The 2nd IEEE Services Workshop on Network Services (2020)</i></li>
-        <li>PC member, <i>International Workshop on Emoji Understanding and Applications in Social Media (EMOJI, 2021, 2022)</i></li>
-        <li>Reviewer for <i>IEEE Transactions on Services Computing (TSC, 2021, 2022)</i></li>
-        <li>Reviewer for <i>IEEE Transactions on Software Engineering (TSE, 2021)</i></li>
-        <li>Reviewer for <i>ACM Transactions on Intelligent Systems and Technology (TIST, 2021)</i></li>
-        <li>Reviewer for <i>Frontiers in Big Data (2021)</i></li>
-        <li>Reviewer for <i>International Journal of Human-Computer Interaction (IJHCI, 2021)</i></li>
-        <li>Reviewer for <i>ACM Transactions on the Web (TWEB, 2020, 2022)</i></li>
-        <li>Reviewer for <i>Journal of Biomedical Informatics (JBI, 2020)</i></li>
-        <li>Reviewer for <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT, 2018)</i></li>
-        <li>External reviewer for <i>ACM SIGKDD conference on Knowledge Discovery and Data Mining (KDD 2017, 2018, 2019)</i></li>
-        <li>External reviewer for <i>International Conference on Mining Software Repositories (MSR 2017)</i></li>
-      </ul>
+      <div className="segment">
+        <div className="segment-title">
+          Academic Services
+        </div>
+        <ul>
+          <li>PC member, <i>The Web Conference (formerly known as WWW, 2023)</i></li>
+          <li>PC member, <i>ACM International WSDM Conference (WSDM, 2021, 2022)</i></li>
+          <li>PC member, <i>ACM International Conference on Information and Knowledge Management (CIKM, 2021, 2022)</i></li>
+          <li>PC member, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2021, 2022)</i></li>
+          <li>PC member, <i>International ACM SIGIR Conference on Research and Development in Information Retrieval, short paper (SIGIR short paper, 2021)</i></li>
+          <li>PC member, <i>IEEE International Conference on Cloud Computing (IEEE CLOUD, 2020)</i></li>
+          <li>Workshop co-chair, <i>The 2nd IEEE Services Workshop on Network Services (2020)</i></li>
+          <li>PC member, <i>International Workshop on Emoji Understanding and Applications in Social Media (EMOJI, 2021, 2022)</i></li>
+          <li>Reviewer for <i>IEEE Transactions on Services Computing (TSC, 2021, 2022)</i></li>
+          <li>Reviewer for <i>IEEE Transactions on Software Engineering (TSE, 2021)</i></li>
+          <li>Reviewer for <i>ACM Transactions on Intelligent Systems and Technology (TIST, 2021)</i></li>
+          <li>Reviewer for <i>Frontiers in Big Data (2021)</i></li>
+          <li>Reviewer for <i>International Journal of Human-Computer Interaction (IJHCI, 2021)</i></li>
+          <li>Reviewer for <i>ACM Transactions on the Web (TWEB, 2020, 2022)</i></li>
+          <li>Reviewer for <i>Journal of Biomedical Informatics (JBI, 2020)</i></li>
+          <li>Reviewer for <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT, 2018)</i></li>
+          <li>External reviewer for <i>ACM SIGKDD conference on Knowledge Discovery and Data Mining (KDD 2017, 2018, 2019)</i></li>
+          <li>External reviewer for <i>International Conference on Mining Software Repositories (MSR 2017)</i></li>
+        </ul>
+      </div>
     </div>
   )
 }
@@ -135,19 +146,16 @@ function AcademicServices() {
 function Awards() {
   return (
     <div className="segment">
-      <div className="segment-title">
-        Honors and Awards      
-      </div>
       <ul>
         <li>2018, Yang Fuqing & Wang Yangyuan Academician Scholarship, Peking University</li>
         <li>2017, Microsoft Research Asia Fellowship Award, Microsoft Research Asia (out of 10 selected in the Asia-Pacific region)</li>
-        <li>2017, National Scholarship, Ministry of Education</li>
+        <li>2017, National Scholarship, Ministry of Education, China</li>
         <li>2016, Lee Wai Wing Scholarship, Peking University</li>
         <li>2015, Excellent Research Award, Peking University</li>
         <li>2014, Suzhou Industrial Park Scholarship, Peking University</li>
         <li>2013, Outstanding Graduate of Beijing</li>
         <li>2013, Outstanding Graduate of Peking University</li>
-        <li>2012, National Scholarship, Ministry of Education)</li>
+        <li>2012, National Scholarship, Ministry of Education, China</li>
         <li>2011, Outstanding Student Leader of Peking University</li>
         <li>2010, Suzhou Industrial Park Scholarship, Peking University</li>
       </ul>
@@ -188,17 +196,9 @@ function Footnote() {
   )
 }
 
-function Main() {
-  return (
-    <div>
-      <Body />
-    </div>
-  )
-}
-
 ReactDOM.render(
   <BrowserRouter>
-    <Main />
+    <Body />
   </BrowserRouter>,
   document.getElementById('root')
 );

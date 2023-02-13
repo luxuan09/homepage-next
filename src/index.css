@@ -3,11 +3,6 @@ body {
   line-height: 24px;
   font-size: 18px;
 }
-
-li {
-  font-size: 17px;
-}
-
 .body-content {
   max-width: 768px;
   margin-left:auto;
@@ -45,8 +40,8 @@ li {
 }
 
 .name .chinese {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 350;
 }
 
 .title {
@@ -80,7 +75,6 @@ li {
 
 .segment-title {
   margin-top: 16px;
-  font-size: 20px;
   font-weight: 700;
   line-height: 22px;
 }
