@@ -218,7 +218,7 @@ export const Publications: React.FC<PublicationsProps> = (props) => {
     return (
         <div className="segment">
             <div className='segment-note'>
-                See also my <a href='https://scholar.google.com/citations?user=vxvh-8oAAAAJ&hl=th'>Google Scholar profile</a>
+                See also my <a href='https://scholar.google.com/citations?user=vxvh-8oAAAAJ&hl=th'>Google Scholar profile</a>.
             </div>
             <div className="segment-content">
                 {years.map((year) => {

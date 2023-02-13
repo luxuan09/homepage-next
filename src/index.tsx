@@ -110,7 +110,7 @@ function AcademicServices() {
           Teaching Experience
         </div>
         <ul>
-          <li>Sep 2022.  Instructor of <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>
+          <li>September 2022.  Instructor of <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>
           <li>Fall 2013-2016. Teaching Assistant of Computer Basics for Liberal Arts Students, Peking University</li>
         </ul>
       </div>
