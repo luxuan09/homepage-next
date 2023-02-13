@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 24px;
 }
 
@@ -9,6 +9,10 @@ body {
   margin-right:auto;
 }
 
+.nav-bar {
+  border-bottom: 1px solid #d2d2d2;
+}
+
 .footnote {
   max-width: 970px;
   margin-left:auto;
@@ -16,6 +20,7 @@ body {
   font-size: 12px;
   line-height: 16px;
   color: darkgrey;
+  border-top: 1px solid #d2d2d2;
 }
 
 .profile {
@@ -25,20 +30,35 @@ body {
   margin-bottom: 32px;
 }
 
+.introduction {
+  font-size: 18px;
+}
+
 .name {
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 400
 }
 
-.intro-first {
-  margin-bottom: 16px;
+.name .chinese {
+  font-size: 24px;
+  font-weight: 300;
 }
 
-.intro-second {
+.title {
   margin-bottom: 16px;
 }
 
 .note{
   font-weight: bold;
+}
+
+.intro-first {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.intro-second {
+  margin-bottom: 16px;
 }
 
 .profile-image {
@@ -51,10 +71,6 @@ body {
   display: inline-block;
   max-width: 100%;
   height: auto;
-}
-
-.segment { 
-  border-top: 1px solid #d2d2d2;
 }
 
 .segment-title {

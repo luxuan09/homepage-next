@@ -24,22 +24,14 @@ function ProfileImage() {
 function Introduction() {
   return (
     <div className="introduction">
-      <h1 className="name">Xuan Lu (陆璇) </h1>
-      <div className="intro-first">
-        I am a Research Fellow and a Research Investigator in the
-        {' '}<a href="https://www.si.umich.edu/">School of Information</a> at
-        the <a href="https://www.umich.edu/">University of Michigan</a>. I work
-        with Prof. <a  href="http://www-personal.umich.edu/~qmei/">
-            Qiaozhu Mei</a> in the <a href="http://foreseer.si.umich.edu/">
-            Foreseer Group</a>.
-      </div>
-      <div className="intro-second">
-        I was fortunate to be advised by Prof. <a 
-            href="https://faculty.pku.edu.cn/meih/en">Hong Mei</a> and Prof. 
-        {' '}<a href="http://liuxuanzhe.com/">Xuanzhe Liu</a> and received my
-        Ph.D from <a href="https://english.pku.edu.cn/">Peking University</a>. 
+      <h1 className="name">Xuan Lu <span className='chinese'>(陆璇)</span> </h1>
+      <div className='title'>
+        <div>Research Fellow</div>
+        <div><a href='https://www.si.umich.edu/'>School of Information</a></div>
+        <div><a href='https://www.umich.edu'>University of Michigan</a></div>
       </div>
       <span className="note">Email: </span><Email email="luxuan@umich.edu" />
+      <div><span className='note'>Office: </span> School of Information/105 S. State Street</div>
     </div>
   )
 }
@@ -49,6 +41,38 @@ function Profile() {
     <div className="profile">
       <ProfileImage />
       <Introduction />
+    </div>
+  )
+}
+
+const Summary = () => (
+  <div className="segment">
+  <div className="intro-first">
+      I am a Research Fellow and a Research Investigator in the
+      {' '}<a href="https://www.si.umich.edu/">School of Information</a> at
+      the <a href="https://www.umich.edu/">University of Michigan</a>. I work
+      with Prof. <a  href="http://www-personal.umich.edu/~qmei/">
+          Qiaozhu Mei</a> in the <a href="http://foreseer.si.umich.edu/">
+          Foreseer Group</a>.
+    </div>
+    <div className="intro-second">
+      I was fortunate to be advised by Prof. <a 
+          href="https://faculty.pku.edu.cn/meih/en">Hong Mei</a> and Prof. 
+      {' '}<a href="http://liuxuanzhe.com/">Xuanzhe Liu</a> and received my
+      Ph.D from <a href="https://english.pku.edu.cn/">Peking University</a>. 
+    </div>
+  </div>
+);
+
+function ResearchInterests() {
+  return (
+    <div className="segment">
+      <div className="segment-title">
+        Research Interests
+      </div>
+      <div className="segment-content">
+          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work; Emoji; Mobile App Ecosystem
+      </div>
     </div>
   )
 }
@@ -69,21 +93,10 @@ function Education() {
   )
 }
 
-function ResearchInterests() {
-  return (
-    <div className="segment">
-      <div className="segment-title">
-        Research Interests
-      </div>
-      <div className="segment-content">
-          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work; Emoji; Mobile App Ecosystem
-      </div>
-    </div>
-  )
-}
 
 const Home = () => (
   <div>
+    <Summary />
     <ResearchInterests />
     <Education />
   </div>
@@ -144,10 +157,8 @@ function Awards() {
 
 function BuildInfo() {
   return (
-    <div className="segment">
-      <div className="segment-content">
-        · Maintained by Xuan Lu, last updated on {buildDate}.
-      </div>
+    <div className="segment-content">
+      · Maintained by Xuan Lu, last updated on {buildDate}.
     </div>
   )
 }
@@ -156,7 +167,7 @@ function Body() {
   return (
     <div className="body-content">
       <Profile />
-      <InlineNavBar />
+      <InlineNavBar className='nav-bar'/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='papers'
@@ -164,6 +175,7 @@ function Body() {
         <Route path='services' element={<AcademicServices />} />
         <Route path='awards' element={<Awards />} />
       </Routes>
+      <Footnote />
     </div>
   )
 }
@@ -180,7 +192,6 @@ function Main() {
   return (
     <div>
       <Body />
-      <Footnote />
     </div>
   )
 }
