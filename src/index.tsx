@@ -147,6 +147,7 @@ function Awards() {
   return (
     <div className="segment">
       <ul>
+        <li>2023, Selected for the <a href='https://xueshu.baidu.com/usercenter/index/aischolar2023'>AI Chinese Female Youth Scholar List</a>, Baidu Scholar</li>
         <li>2018, Yang Fuqing & Wang Yangyuan Academician Scholarship, Peking University</li>
         <li>2017, Microsoft Research Asia Fellowship Award, Microsoft Research Asia (out of 10 selected in the Asia-Pacific region)</li>
         <li>2017, National Scholarship, Ministry of Education, China</li>
