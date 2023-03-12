@@ -197,8 +197,10 @@ function Body() {
       if (pathname === '/') {
         window.scrollTo(0, 0);
       } else if (bodyRef.current) {
-        bodyRef.current.scrollIntoView(true);
-        bodyRef.current.scrollBy(x: -10px)
+        const yOffset = -64;
+        let y = bodyRef.current.getBoundingClientRect().top
+          + window.scrollY + yOffset;
+        window.scrollTo({top: y});
       }
   }, [pathname]);
 
