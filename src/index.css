@@ -3,6 +3,7 @@ body {
   line-height: 24px;
   font-size: 18px;
 }
+
 .body-content {
   max-width: 768px;
   margin-left:auto;
@@ -11,6 +12,27 @@ body {
 
 .nav-bar {
   border-bottom: 1px solid #d2d2d2;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 48px;
+    z-index: 2009;
+    background-color: white;
+  }
+
+  .body-content {
+    margin-top: 64px;
+  }
+
+  .profile {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d2d2d2;
+  }
 }
 
 .footnote {

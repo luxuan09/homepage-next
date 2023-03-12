@@ -18,7 +18,7 @@ const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 
 function ProfileImage() {
   return <img 
-      src={profileImage} className="profile-image" alt="Profile Image" />;
+      src={profileImage} className="profile-image" alt="Profile" />;
 }
 
 function Introduction() {

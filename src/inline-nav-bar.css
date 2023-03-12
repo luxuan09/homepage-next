@@ -11,12 +11,56 @@ ul.inline {
     li.inline {
         font-size: 24px;
     }
+
+    li.inline:not(:first-child):before {
+        content: "\00a0| ";
+    }
+
+    ul li a.active {
+        text-decoration: underline;
+    }
+
+    .burger {
+        display: none !important;
+    }
 }
 
-li.inline:not(:first-child):before {
-    content: "\00a0| ";
-}
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        align-items: center;
+    }
 
-ul li a.active {
-    text-decoration: underline;
-}
+    ul.inline {
+        position: fixed;
+        left: 0;
+        top: 0;
+
+        height: 100%;
+
+        flex-direction: column;
+
+        background-color: white;
+        padding: 1rem 2rem;
+
+        transition: 0.2s ease-in;
+        transform: translateX(-100%);
+    }
+
+    ul.inline.active {
+        background-color: #F3F4F6;
+
+        transform: translateX(0);
+    }
+
+    li.inline {
+        cursor: pointer;
+    }
+    
+    .burger {
+        display: block;
+    }
+  }
+
+
+
