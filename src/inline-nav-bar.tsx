@@ -28,7 +28,7 @@ const InlineNavBar = ({ className }: InlineNavBarProps) => {
 
     return (
         <div className={`container ${className}`}>
-            <IconButton className='burger' onClick={() => toggleDrawer(true)}>
+            <IconButton className='burger' size='large' onClick={() => toggleDrawer(true)}>
                 <MenuIcon />
             </IconButton>
             <nav>

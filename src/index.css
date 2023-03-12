@@ -20,13 +20,13 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    height: 48px;
+    height: 56px;
     z-index: 2009;
     background-color: white;
   }
 
   .body-content {
-    margin-top: 64px;
+    margin-top: 72px;
   }
 
   .profile {

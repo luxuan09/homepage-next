@@ -178,7 +178,8 @@ interface EntryProps {
 }
 const Entry: React.FC<EntryProps> = (props) => {
     return (
-        <li className="publication-entry">
+        <li key={props.publication.label}
+            className="publication-entry">
             <span>[{props.publication.label}]</span>
             {props.publication.authors.map((author) => {
                 let lastAuthor = props.publication.authors[(props.publication.authors.length - 1)];

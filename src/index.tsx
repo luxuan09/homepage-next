@@ -1,4 +1,6 @@
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+import { useLocation } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
 import { Email } from 'react-obfuscate-email';
 import { Publications } from './publication';
 import './index.css';
@@ -8,6 +10,8 @@ import profileImage from './images/me.jpeg';
 import { publications } from  './publication';
 import InlineNavBar from './inline-nav-bar';
 import { HashRouter, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './scroll_to_top';
+import { alignProperty } from '@mui/material/styles/cssUtils';
 
 const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 {
@@ -173,17 +177,44 @@ function BuildInfo() {
 }
 
 function Body() {
+  const { pathname } = useLocation();
+  const bodyRef = useRef<HTMLDivElement>(null);
+
+  let prePath:string|null;
+
+  useEffect(() => {
+      if (prePath === null) {
+        prePath = pathname;
+        return;
+      }
+
+      let width = window.innerWidth;
+
+      if (width > 768) {
+        return;
+      }
+
+      if (pathname === '/') {
+        window.scrollTo(0, 0);
+      } else if (bodyRef.current) {
+        bodyRef.current.scrollIntoView(true);
+        bodyRef.current.scrollBy(x: -10px)
+      }
+  }, [pathname]);
+
   return (
     <div className="body-content">
       <Profile />
       <InlineNavBar className='nav-bar'/>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='papers'
-            element={<Publications publications={publications} />} />
-        <Route path='services' element={<AcademicServices />} />
-        <Route path='awards' element={<Awards />} />
-      </Routes>
+      <div ref={bodyRef}>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='papers'
+              element={<Publications publications={publications} />} />
+          <Route path='services' element={<AcademicServices />} />
+          <Route path='awards' element={<Awards />} />
+        </Routes>
+      </div>
       <Footnote />
     </div>
   )
@@ -197,9 +228,10 @@ function Footnote() {
   )
 }
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(
   <HashRouter>
     <Body />
-  </HashRouter>,
-  document.getElementById('root')
+  </HashRouter>
 );
