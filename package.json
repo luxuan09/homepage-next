@@ -1,7 +1,7 @@
 {
   "name": "hpn",
   "homepage": "https://luxuan09.github.io",
-  "version": "0.1.52",
+  "version": "0.1.53",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
