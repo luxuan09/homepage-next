@@ -1,7 +1,12 @@
 body {
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Lato;
+  /* font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; */
   line-height: 24px;
   font-size: 18px;
+}
+
+b {
+  font-weight: 500;
 }
 
 .body-content {
@@ -71,7 +76,7 @@ body {
 }
 
 .note{
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .intro-first {
@@ -97,7 +102,7 @@ body {
 
 .segment-title {
   margin-top: 16px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 22px;
 }
 
@@ -144,7 +149,7 @@ a {
 
 .highlights {
   color: red;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .side-notes {

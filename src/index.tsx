@@ -10,8 +10,8 @@ import profileImage from './images/me.jpeg';
 import { publications } from  './publication';
 import InlineNavBar from './inline-nav-bar';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import ScrollToTop from './scroll_to_top';
-import { alignProperty } from '@mui/material/styles/cssUtils';
+import 'lato-font';
+
 
 const buildDate = new Date(buildInfo.buildDate).toLocaleDateString('en-US',
 {
