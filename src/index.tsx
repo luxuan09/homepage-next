@@ -34,7 +34,7 @@ function Introduction() {
         <div><a href='https://www.si.umich.edu/'>School of Information</a></div>
         <div><a href='https://www.umich.edu'>University of Michigan</a></div>
       </div>
-      <span className="note">Email: </span><Email email="luxuan09@outlook.com">{', '}</Email><Email email="luxuan@umich.edu" />
+      <span className="note">Email: </span><Email email="luxuan09@outlook.com"></Email>, <Email email="luxuan@umich.edu" />
       <div><span className='note'>Office: </span> 3345 North Quad, 105 S. State St. Ann Arbor MI 48109</div>
     </div>
   )
@@ -53,7 +53,7 @@ const Summary = () => (
   <div className="segment">
   <div className="intro-first">
       Starting Fall 2023, I'll be an Assistant Professor at the
-      <a href="https://ischool.arizona.edu">School of Information</a>, <a href="https://www.arizona.edu">University of Arizona</a>.
+      {' '}<a href="https://ischool.arizona.edu">School of Information</a>, <a href="https://www.arizona.edu">University of Arizona</a>.
       Currently, I am a Research Fellow and a Research Investigator in the
       {' '}<a href="https://www.si.umich.edu/">School of Information</a> at
       the <a href="https://www.umich.edu/">University of Michigan</a>. I work
