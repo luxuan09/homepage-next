@@ -17,6 +17,14 @@ class Publication {
 
 export const publications: Publication[] = [
     new Publication(
+        'c15',
+        ['Yawen Guo', 'Rachael Zehrung', 'Katherine Genuario', 'Xuan Lu', 'Qiaozhu Mei', 'Yunan Chen', 'Kai Zheng'],
+        'Perspectives on Privacy in the Post-Roe Era: A Mixed-Methods of Machine Learning and Qualitative Analyses of Tweets',
+        'In AMIA Annual Symposium Proceedings',
+        2023,
+        '',
+        true),
+    new Publication(
         'c14',
         ['Xuan Lu', 'Wei Ai', 'Yixin Wang', 'Qiaozhu Mei'],
         'Team Resilience under Shock: An Empirical Analysis of GitHub Repositories during Early COVID-19 Pandemic',

@@ -30,12 +30,12 @@ function Introduction() {
     <div className="introduction">
       <h1 className="name">Xuan Lu <span className='chinese'>(陆璇)</span> </h1>
       <div className='title'>
-        <div>Research Fellow and Research Investigator</div>
-        <div><a href='https://www.si.umich.edu/'>School of Information</a></div>
-        <div><a href='https://www.umich.edu'>University of Michigan</a></div>
+        <div>Assistant Professor</div>
+        <div><a href='https://ischool.arizona.edu/'>School of Information</a></div>
+        <div><a href='https://www.arizona.edu/'>University of Arizona</a></div>
       </div>
-      <span className="note">Email: </span><Email email="luxuan09@outlook.com"></Email>, <Email email="luxuan@umich.edu" />
-      <div><span className='note'>Office: </span> 3345 North Quad, 105 S. State St. Ann Arbor MI 48109</div>
+      <span className="note">Email: </span><Email email="luxuan@arizona.edu"></Email>, <Email email="luxuan09@outlook.com" />
+      <div><span className='note'>Office: </span> Harvill Building, University of Arizona, Tucson, Arizona 85721 </div>
     </div>
   )
 }
@@ -52,11 +52,11 @@ function Profile() {
 const Summary = () => (
   <div className="segment">
   <div className="intro-first">
-      Starting Fall 2023, I'll be an Assistant Professor at the
+      I am an Assistant Professor at the
       {' '}<a href="https://ischool.arizona.edu">School of Information</a>, <a href="https://www.arizona.edu">University of Arizona</a>.
-      Currently, I am a Research Fellow and a Research Investigator in the
+      Before joining iSchool@UArizona, I was a Research Fellow and a Research Investigator in the
       {' '}<a href="https://www.si.umich.edu/">School of Information</a> at
-      the <a href="https://www.umich.edu/">University of Michigan</a>. I work
+      the <a href="https://www.umich.edu/">University of Michigan</a>, working
       with Prof. <a  href="http://www-personal.umich.edu/~qmei/">
           Qiaozhu Mei</a> in the <a href="http://foreseer.si.umich.edu/">
           Foreseer Group</a>.
@@ -77,7 +77,20 @@ function ResearchInterests() {
         Research Interests
       </div>
       <div className="segment-content">
-          Human-centered Data Science; Machine Learning; Causal Inference; Future of Work; Emoji; Mobile App Ecosystem
+          Human-centered Data Science; Human-AI Collaboration; Causal Inference; Future of Work; Emoji
+      </div>
+    </div>
+  )
+}
+
+function ProspectiveStudents() {
+  return (
+    <div className="segment">
+      <div className="segment-title">
+        Prospective Students
+      </div>
+      <div className="segment-content">
+          I'm seeking dedicated students to embark on this journey with me. For prospective Ph.D. students, please apply to our program and highlight your interest in partnering with me. For potential research collaborations, kindly email your CV and transcript with the subject line “[Prospective Student] Your Name” to indicate your interest. Please note that I might not respond to all emails.
       </div>
     </div>
   )
