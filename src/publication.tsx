@@ -28,10 +28,9 @@ export const publications: Publication[] = [
     'c14',
     ['Xuan Lu', 'Wei Ai', 'Yixin Wang', 'Qiaozhu Mei'],
     'Team Resilience under Shock: An Empirical Analysis of GitHub Repositories during Early COVID-19 Pandemic',
-    'In Proceedings of the 17th International AAAI Conference on Web and Social Media (ICWSM\'23)',
+    'In Proceedings of the 17th International AAAI Conference on Web and Social Media (ICWSM\'23), Vol. 17, pp. 578-589',
     2022,
-    'https://arxiv.org/pdf/2301.12326.pdf',
-    true),
+    'https://arxiv.org/pdf/2301.12326.pdf'),
   new Publication(
     'j11',
     ['Xuan Lu', 'Wei Ai', 'Zhenpeng Chen', 'Yanbin Cao', 'Qiaozhu Mei'],

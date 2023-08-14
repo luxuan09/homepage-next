@@ -34,7 +34,7 @@ function Introduction() {
         <div><a href='https://ischool.arizona.edu/'>School of Information</a></div>
         <div><a href='https://www.arizona.edu/'>University of Arizona</a></div>
       </div>
-      <span className="note">Email: </span><Email email="luxuan@arizona.edu"></Email>, <Email email="luxuan09@outlook.com" />
+      <span className="note">Email: </span><Email email="luxuan@arizona.edu"></Email>
       <div><span className='note'>Office: </span> Harvill Building, University of Arizona, Tucson, Arizona 85721 </div>
     </div>
   )
@@ -117,6 +117,7 @@ const Home = () => (
   <div>
     <Summary />
     <ResearchInterests />
+    <ProspectiveStudents />
     <Education />
   </div>
 );
