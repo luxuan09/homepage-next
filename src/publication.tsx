@@ -27,7 +27,7 @@ export const publications: Publication[] = [
   new Publication(
   'c16',
   ['Yuhang Zhou', 'Xuan Lu', 'Ge Gao', 'Qiaozhu Mei', 'Wei Ai'],
-  'Emoji Promotes Developer Participation and Issue Resolution on GitHub'
+  'Emoji Promotes Developer Participation and Issue Resolution on GitHub',
   'In Proceedings of the 18th International AAAI Conference on Web and Social Media (ICWSM\'24)',
   2024,
   '',
