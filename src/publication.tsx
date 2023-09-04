@@ -17,6 +17,22 @@ class Publication {
 
 export const publications: Publication[] = [
   new Publication(
+  'j12',
+  ['Fuqi Lin', 'Xuan Lu', 'Wei Ai', 'Huoran Li', 'Yun Ma', 'Yulian Yang', 'Hongfei Deng', 'Qingxiang Wang', 'Qiaozhu Mei', 'Xuanzhe Liu'],
+  'Adoption of Recurrent Innovations: A Large-Scale Case Study on Mobile App Updates',
+  'Transactions on the Web (TWEB)',
+  2023,
+  '',
+  true),
+  new Publication(
+  'c16',
+  ['Yuhang Zhou', 'Xuan Lu', 'Ge Gao', 'Qiaozhu Mei', 'Wei Ai'],
+  'Emoji Promotes Developer Participation and Issue Resolution on GitHub'
+  'In Proceedings of the 18th International AAAI Conference on Web and Social Media (ICWSM\'24)',
+  2024,
+  '',
+  true),
+  new Publication(
     'c15',
     ['Yawen Guo', 'Rachael Zehrung', 'Katherine Genuario', 'Xuan Lu', 'Qiaozhu Mei', 'Yunan Chen', 'Kai Zheng'],
     'Perspectives on Privacy in the Post-Roe Era: A Mixed-Methods of Machine Learning and Qualitative Analyses of Tweets',

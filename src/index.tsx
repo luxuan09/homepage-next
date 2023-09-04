@@ -35,7 +35,7 @@ function Introduction() {
         <div><a href='https://www.arizona.edu/'>University of Arizona</a></div>
       </div>
       <span className="note">Email: </span><Email email="luxuan@arizona.edu"></Email>
-      <div><span className='note'>Office: </span> Harvill Building, University of Arizona, Tucson, Arizona 85721 </div>
+      <div><span className='note'>Office: </span> 445D Harvill Building, University of Arizona, Tucson, Arizona 85721 </div>
     </div>
   )
 }
@@ -130,8 +130,9 @@ function AcademicServices() {
           Teaching Experiences
         </div>
         <ul>
-          <li>September 2022.  Instructor of <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>
-          <li>Fall 2013-2016. Teaching Assistant of Computer Basics for Liberal Arts Students, Peking University</li>
+          <li>Fall 2023. Instructor. INFO 521 ISTA 421 – Introduction to Machine Learning, University of Arizona</li>
+          <li>September 2022.  Instructor. <a href='https://midas.umich.edu/natural-language-processing-workshop/'>Natrual Language Processing Workshop Series</a>, University of Michigan</li>
+          <li>Fall 2013-2016. Teaching Assistant. Computer Basics for Liberal Arts Students, Peking University</li>
         </ul>
       </div>
       <div className="segment">
@@ -139,7 +140,10 @@ function AcademicServices() {
           Academic Services
         </div>
         <ul>
-          <li>PC member, <i>The Web Conference (formerly known as WWW, 2023)</i></li>
+          <li>PC member, <i>IEEE International Conference on Big Data (IEEE BigData 2023)</i></li>
+          <li>PC member, <i>The Web Conference (formerly known as WWW, 2023, 2024)</i></li>
+          <li>Session chair, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2023)</i></li>
+          <li>Reviwer for <i>IEEE Transactions on Mobile Computing (TMC, 2023)</i></li>
           <li>PC member, <i>ACM International WSDM Conference (WSDM, 2021, 2022)</i></li>
           <li>PC member, <i>ACM International Conference on Information and Knowledge Management (CIKM, 2021, 2022)</i></li>
           <li>PC member, <i>ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Applied Data Science Track (KDD ADS track, 2021, 2022)</i></li>
