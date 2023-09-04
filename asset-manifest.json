@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.428a3df4.css",
-    "main.js": "/static/js/main.550d0203.js",
+    "main.js": "/static/js/main.2c6f41e5.js",
     "static/media/me.jpeg": "/static/media/me.a8090fabbc9cd0f4e750.jpeg",
     "static/media/lato-normal-italic.woff": "/static/media/lato-normal-italic.62a9c838c99d073c7ba6.woff",
     "static/media/lato-semibold-italic.woff": "/static/media/lato-semibold-italic.3fdee263fe69b843601f.woff",
@@ -41,10 +41,10 @@
     "static/media/lato-hairline.woff2": "/static/media/lato-hairline.73d2c04510d153b6da52.woff2",
     "index.html": "/index.html",
     "main.428a3df4.css.map": "/static/css/main.428a3df4.css.map",
-    "main.550d0203.js.map": "/static/js/main.550d0203.js.map"
+    "main.2c6f41e5.js.map": "/static/js/main.2c6f41e5.js.map"
   },
   "entrypoints": [
     "static/css/main.428a3df4.css",
-    "static/js/main.550d0203.js"
+    "static/js/main.2c6f41e5.js"
   ]
 }
